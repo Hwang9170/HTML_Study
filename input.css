@@ -1,0 +1,4 @@
+/* 프로젝트의 CSS 파일 */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
