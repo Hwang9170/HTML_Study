@@ -5,15 +5,6 @@ $(document).ready(function () {
     pagination: false,
   });
 
-  var typed = new Typed(".typed", {
-    strings: [],
-    typeSpeed: 60,
-    startDelay: 900,
-    showCursor: false,
-    loop: true,
-    backDelay: 900,
-    backSpeed: 30,
-  });
 
   $(".owl-carousel").owlCarousel({
     loop: true,
