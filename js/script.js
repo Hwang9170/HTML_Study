@@ -6,7 +6,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typed", {
-    strings: ["Web 개발", "CSS 부터 JS까지", "아자아자 파이팅"],
+    strings: [],
     typeSpeed: 60,
     startDelay: 900,
     showCursor: false,

@@ -156,10 +156,10 @@ body {
 .squareIcon {
   position: absolute;
   left: 50%;
-  top: -30px;
+  top: -10px;
   width: 40%;
   height: 50px;
-  font-size: 45px;
+  font-size: 40px;
   margin-left: -20%;
   color: #f5ebeb;
 }
@@ -350,8 +350,8 @@ body {
     90deg,
     rgb(63, 55, 227) 0%,
     #d4d4de 0%,
-    rgb(243, 244, 241) 80%,
-    rgb(15, 15, 15) 20%
+    rgb(243, 244, 241) 10%,
+    rgb(15, 15, 15) 80%
   );
   padding: 20px 10px;
   z-index: 100;
