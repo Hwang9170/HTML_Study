@@ -12,7 +12,7 @@ $(document).ready(function () {
     showCursor: false,
     loop: true,
     backDelay: 900,
-    backSpeed: 40,
+    backSpeed: 30,
   });
 
   $(".owl-carousel").owlCarousel({
