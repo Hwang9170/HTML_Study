@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  text-align: center;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  margin-bottom: 20px;
+  width: 100%; /* 동영상을 꽉 차게 만듭니다. */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 400px; /* 동영상의 높이를 조정하세요 */
+}
+
+.description {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%; /* 설명을 꽉 차게 만듭니다. */
+  max-width: 600px; /* 최대 너비 설정 */
+}
+
+/* Day.css */
+.navbar {
+  background-color: #333; /* 배경색을 검정으로 설정 */
+  color: #fff; /* 텍스트 색상을 흰색으로 설정 */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff; /* 네비게이션 링크 텍스트 색상을 흰색으로 설정 */
+}
