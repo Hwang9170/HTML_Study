@@ -42,11 +42,56 @@ main {
 
 /* Day.css */
 .navbar {
-  background-color: #333; /* 배경색을 검정으로 설정 */
-  color: #fff; /* 텍스트 색상을 흰색으로 설정 */
-}
+  background: linear-gradient(136deg, #E3A6FF 3.46%, #640E8B 19.78%, #030303 48.01%, #261D7B 78.44%, #0500FF 91.68%);
+  font-size: 14px;
+  font-weight: bold;
+  color: white;}
 
 .navbar-brand,
 .navbar-nav .nav-link {
   color: #fff; /* 네비게이션 링크 텍스트 색상을 흰색으로 설정 */
+}
+
+
+
+
+.button {
+  border: 0.1px solid #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: linear-gradient(136deg, #E3A6FF 3.46%, #640E8B 19.78%, #030303 48.01%, #261D7B 78.44%, #0500FF 91.68%);
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes shine {
+  0% {
+    left: -150%;
+  }
+  50% {
+    left: 150%;
+  }
+  100% {
+    left: 150%;
+  }
+}
+
+
+.button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -150%;
+  width: 300%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.3);
+  animation: shine 5s linear infinite;
+  transform: rotate(30deg);
 }

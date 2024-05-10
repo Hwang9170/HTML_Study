@@ -414,3 +414,4 @@ body {
   opacity: 0; /* 초기에는 투명하게 설정합니다. */
   transition: opacity 0.3s ease; /* 투명도에 대한 전환을 추가합니다. */
 }
+
