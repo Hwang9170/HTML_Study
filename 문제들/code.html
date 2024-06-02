@@ -13,6 +13,7 @@
       height: 100vh;
       margin: 0;
       background-color: #f0f0f0;
+      flex-direction: column;
     }
 
     .card {
@@ -26,6 +27,7 @@
       align-items: center;
       overflow: hidden;
       border-radius: 20px;
+      margin-bottom: 20px; /* Space between the card and the button */
     }
 
     .card pre {
@@ -66,6 +68,20 @@
       inset: 5px;
       border-radius: 15px;
     }  
+
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #07182E;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #094074;
+    }
   </style>
 </head>
 <body>
@@ -84,5 +100,6 @@
 &lt;/html&gt;
     </pre>
   </div>
+  <a href="/문제들/Day1.html"><button>뒤로 가기</button></a>
 </body>
 </html>
