@@ -1,0 +1,19 @@
+{
+  "name": "HWANG_WebStudy",
+  "short_name": "HWS",
+  "description": "Let's Go !! We can do it",
+  "dir": "ltr",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "categories": ["life"],
+  "screenshots": [],
+  "icons": [{
+		"src": "/icon-512x512.png",
+		"sizes": "512x512"
+	}],
+  "shortcuts": []
+}
